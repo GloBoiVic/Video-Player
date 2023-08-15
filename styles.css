@@ -40,7 +40,6 @@ video {
 	height: auto;
 }
 
-/* Containers */
 .show-controls {
 	width: 100%;
 	height: 30%;
@@ -86,7 +85,6 @@ video {
 	top: 40px;
 }
 
-/* Progress Bar */
 .progress-range {
 	height: 8px;
 	width: calc(100% - 30px);
@@ -112,14 +110,11 @@ video {
 	transition: all 0.5s ease;
 }
 
-/* Left Controls -------------------------- */
-
 .controls-left {
 	justify-content: flex-start;
 	margin-left: 15px;
 }
 
-/* Play & Pause */
 .play-controls {
 	margin-right: 15px;
 }
@@ -130,7 +125,6 @@ video {
 	cursor: pointer;
 }
 
-/* Volume */
 .volume-icon {
 	cursor: pointer;
 }
@@ -158,7 +152,6 @@ video {
 	background: var(--primary-color);
 }
 
-/* Right Controls ---------------------------- */
 .controls-right {
 	justify-content: flex-end;
 	margin-right: 15px;
@@ -170,7 +163,6 @@ video {
 	top: 10px;
 }
 
-/* Playback Speed */
 .speed {
 	margin-right: 15px;
 }
@@ -200,7 +192,6 @@ select > option {
 	font-size: 14px;
 }
 
-/* Elapsed Time & Duration */
 .time {
 	margin-right: 15px;
 	color: var(--font-color);
@@ -208,7 +199,6 @@ select > option {
 	user-select: none;
 }
 
-/* Fullscreen */
 .fullscreen {
 	cursor: pointer;
 }
